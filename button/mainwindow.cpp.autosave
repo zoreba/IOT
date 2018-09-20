@@ -100,8 +100,6 @@ void MainWindow::btn_status()
 void MainWindow::btn_start()
 {
     wiringPiSetup();
- //   digitalWrite(1, LOW);
- //   digitalWrite(4, LOW);
 
     digitalWrite(1, HIGH);
     digitalWrite(4, HIGH);
